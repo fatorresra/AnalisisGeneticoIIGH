@@ -58,11 +58,11 @@ public class UserManager {
                     if ( aux != null){
                         if(usuario.getPassword().equals(aux.getPassword())) return aux;   
                         else{
-                        throw  new Class­Not­Found­Exception("Invalid password");
+                        throw  new ClassNotFoundException("Invalid password");
                         } 
                     }
                     else{
-                        throw  new Class­Not­Found­Exception("Not founded");
+                        throw  new ClassNotFoundException("Not founded");
                     }                               
     }    
     

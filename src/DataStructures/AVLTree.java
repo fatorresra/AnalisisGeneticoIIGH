@@ -162,7 +162,7 @@ public class AVLTree<T extends Comparable<T>> implements Serializable
 		}
 		else
 		{                        
-                    throw  new Class­Not­Found­Exception("The value already exist.");			
+                    throw  new ClassNotFoundException("The value already exist.");			
 		}
 		// Update FE
 		if((subtree.left==null)&&(subtree.right!=null))
